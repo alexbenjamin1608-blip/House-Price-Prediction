@@ -1,0 +1,26 @@
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# User databases and private information
+*.db
+*.sqlite
+*.sqlite3
+registered_users.txt
+
+# Uploaded profile pictures
+uploads/*
+!uploads/.gitkeep
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Editor and system files
+.vscode/
+.DS_Store
